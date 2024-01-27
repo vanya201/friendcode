@@ -24,10 +24,10 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT);
 
         //// Draw the triangle
-        //drawTriangle();
+      
 
         //// Swap front and back buffers
-        //glfwSwapBuffers(window);
+        glfwSwapBuffers(window);
 
         // Poll for and process events
         glfwPollEvents();
